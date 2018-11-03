@@ -12,15 +12,10 @@ class PageRank {
 		double PR = vertex[v];
 		for(int j = 0; j < 1000; j++) {
 			for (int i: digraph.adj(v)) {
-				if (digraph.outdegree(i) == 0) {
-					System.out.println("exception occured");
-				}
-				else {
-					PR /= digraph.outdegree(i);
-				}
+				PR /= digraph.outdegree(i);
+			}
 		}
-	}
-	return PR;
+		return PR;
 	}
 	public String toString() {
 		String str = "";
