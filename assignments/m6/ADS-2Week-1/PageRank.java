@@ -1,7 +1,8 @@
 class PageRank {
 	Digraph digraph;
+	private int[] edgeTo;
 	PageRank(Digraph graph) {
-		//computation of webpages.
+		
 	}
 	public double getPR(int v) {
 		//value obtained after 1000 iterations.

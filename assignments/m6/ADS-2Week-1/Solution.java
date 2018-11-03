@@ -16,13 +16,6 @@ public class Solution {
 			}
 		}
 		System.out.println(digraph);
-		// iterate count of vertices times 
-		// to read the adjacency list from std input
-		// and build the graph
-		
-		
-		// Create page rank object and pass the graph object to the constructor
-		
 		// print the page rank object
 		
 		// This part is only for the final test case
