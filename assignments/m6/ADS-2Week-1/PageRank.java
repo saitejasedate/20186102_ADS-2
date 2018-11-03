@@ -1,15 +1,33 @@
 class PageRank {
 	Digraph digraph;
-	private int[] edgeTo;
-	PageRank(Digraph graph) {
-		System.out.println(graph);
+	double[] vertex;
+	PageRank(Digraph digraph1) {
+		this.digraph = digraph1;
+		vertex = new double[digraph.V()];
+		for (int i = 0; i < vertex.length; i++) {
+			vertex[i] = 1.0/digraph.V();
+		}
 	}
 	public double getPR(int v) {
-		//value obtained after 1000 iterations.
-		return 0;
+		double PR = vertex[v];
+		for(int j = 0; j < 1000; j++) {
+			for (int i: digraph.adj(v)) {
+				if (digraph.outdegree(i) == 0) {
+					System.out.println("exception occured");
+				}
+				else {
+					PR /= digraph.outdegree(i);
+				}
+		}
+	}
+	return PR;
 	}
 	public String toString() {
-		//string representation of PR.
-		return "";
+		String str = "";
+		str += digraph + "\n";
+		for (int i = 0; i < digraph.V(); i++) {
+			str += i + " - " + getPR(i) + "\n";
+		}
+		return str;
 	}
 }
