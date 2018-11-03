@@ -12,7 +12,7 @@ class PageRank {
 		double PR = vertex[v];
 		for(int j = 0; j < 1000; j++) {
 			for (int i: digraph.adj(v)) {
-				PR /= digraph.outdegree(i);
+				PR = getPR(i) / digraph.outdegree(i);
 			}
 		}
 		return PR;
