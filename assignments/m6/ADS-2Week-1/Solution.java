@@ -14,8 +14,8 @@ public class Solution {
 				adj[i] = Integer.parseInt(line[i]);
 				digraph.addEdge(vertex, adj[i]);
 			}
-			System.out.println(digraph);
 		}
+		System.out.println(digraph);
 		// iterate count of vertices times 
 		// to read the adjacency list from std input
 		// and build the graph
