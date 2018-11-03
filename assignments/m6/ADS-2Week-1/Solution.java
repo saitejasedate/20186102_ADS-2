@@ -16,6 +16,8 @@ public class Solution {
 			}
 		}
 		System.out.println(digraph);
+		System.out.println();
+		PageRank pageRank = new PageRank(digraph); 
 		// print the page rank object
 		
 		// This part is only for the final test case

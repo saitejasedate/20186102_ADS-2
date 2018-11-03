@@ -254,12 +254,11 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:3:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:4:18: Parameter graph should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:5: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:7:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:7:29: Parameter v should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:11:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 11 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
@@ -308,12 +307,13 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:9:22: 'while' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:20: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:22: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:27: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:28: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:27: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:29: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:30: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Solution.java:35: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Stack.java:13: Line has trailing spaces. [RegexpSingleline]
