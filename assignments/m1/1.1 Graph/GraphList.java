@@ -1,11 +1,4 @@
-/**
- * import Scanner class.
- */
 import java.util.Scanner;
-/**
- * import Array class.
- */
-import java.util.Arrays;
 /**
  * List of graphs.
  */
@@ -28,6 +21,8 @@ class GraphList {
     private String[] tokens;
     /**
      * Constructs the object.
+     * By the analysis the complexity of the following method
+     * was the O(V).
      */
     GraphList() {
     }
@@ -36,15 +31,17 @@ class GraphList {
      *
      * @param      scan  The scan
      */
-    GraphList(Scanner scan) {
+    GraphList(final Scanner scan) {
         this.v = Integer.parseInt(scan.nextLine());
         adj = (Bag<Integer>[]) new Bag[v];
-        for (int i = 0; i < v; i++) {
+        int i;
+        for (i = 0; i < v; i++) {
             adj[i] = new Bag<Integer>();
         }
-        int e = Integer.parseInt(scan.nextLine());
+        int numOfEdges = Integer.parseInt(scan.nextLine());
         tokens = scan.nextLine().split(",");
-        for (int i = 0; i < e; i++) {
+        int j;
+        for (j = 0; j < numOfEdges; j++) {
             String[] inputs = scan.nextLine().split(" ");
             addEdge(Integer.parseInt(inputs[0]), Integer.parseInt(inputs[1]));
         }
@@ -52,6 +49,9 @@ class GraphList {
 
     /**
      * method for vertices.
+     * By the analysis the complexity of the following method
+     * was the O(1).
+     * As the method calls the statment exectes only once.
      *
      * @return  vertices.
      */
@@ -60,23 +60,26 @@ class GraphList {
     }
     /**
      * method for edges.
+     * By the analysis the complexity of the following method
+     * is numOfEdges O(1).
+     * As the method calls the statment exectes only once.
      *
      * @return edges.
      */
-    public int e() {
+    public int numOfEdges() {
         return e;
     }
 
     /**
      * Adds an edge.
      *
-     * @param      v    the int.
+     * @param      v1    the int.
      * @param      w    the int.
      */
-    public void addEdge(int v, int w) {
-        if (v != w) {
-            adj[v].add(w);
-            adj[w].add(v);
+    public void addEdge(final int v1, final int w) {
+        if (v1 != w) {
+            adj[v1].add(w);
+            adj[w].add(v1);
             e++;
         } else {
             return;
@@ -86,23 +89,30 @@ class GraphList {
     /**
      * method for adjacent vertex.
      *
-     * @param      v    the int.
+     * @param      v1    the int.
+     * By the analysis the complexity of the following method
+     * was the O(E).
+     * where E is the no.of edges in the graph.
+     * As the method calls the statment exectes only once.
      *
      * @return adjacent vertex.
      */
-    public Iterable<Integer> adj(int v) {
-        return adj[v];
+    public Iterable<Integer> adj(final int v1) {
+        return adj[v1];
     }
 
     /**
      * Determines if it has edge.
      *
-     * @param      v    the int.
+     * @param      v1    the int.
      * @param      w    the int.
+     * By the analysis the complexity of the following method
+     * was the O(1).
+     * As the method calls the statment exectes only once.
      *
      * @return     True if has edge, False otherwise.
      */
-    public boolean hasEdge(int v, int w) {
+    public boolean hasEdge(final int v1, final int w) {
         return true;
     }
 

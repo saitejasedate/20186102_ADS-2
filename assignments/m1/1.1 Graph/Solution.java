@@ -2,11 +2,10 @@ import java.util.Scanner;
 /**
  * @author : saitejasedate.
  */
-import java.util.Arrays;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -19,15 +18,15 @@ public class Solution {
      */
     public static void main(final String[] args) {
         Scanner scan = new Scanner(System.in);
-        String type = scan.nextLine();
-        switch (type) {
+        String query = scan.nextLine();
+        switch (query) {
         case "List":
-            GraphList lisObj = new GraphList(scan);
-            System.out.println(lisObj);
+            GraphList graphList = new GraphList(scan);
+            System.out.println(graphList);
             break;
         case "Matrix":
-            GraphMatrix lisMat = new GraphMatrix(scan);
-            lisMat.print();
+            GraphMatrix graphMatrix = new GraphMatrix(scan);
+            graphMatrix.toString();
             break;
         default :
             break;
