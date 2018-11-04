@@ -258,12 +258,9 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:11:41: '/' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:14:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:14:29: Parameter v should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:15:24: Name 'PR' must match pattern '^[a-z][a-zA-Z0-9]*$'. [LocalVariableName]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:16:20: 'for' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:16:36: '1000' is a magic number. [MagicNumber]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\PageRank.java:23:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 16 errors.
+Checkstyle ends with 13 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Queue.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m6\ADS-2Week-1\Queue.java:5: Line has trailing spaces. [RegexpSingleline]
