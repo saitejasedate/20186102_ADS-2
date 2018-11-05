@@ -1,4 +1,3 @@
-
 /**
  * Class for directed cycle.
  */
