@@ -5,26 +5,21 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:4:8: Unused import - java.util.Scanner. [UnusedImports]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:12:9: Variable 'openSiteCount' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:16:17: Variable 'arr' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:20:11: Variable 'graph' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:21: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:24:9: Variable 'n' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:33:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:33:24: Parameter n should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:33:28: 'n' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:36:30: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:36:31: '*' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:41: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:12:17: Variable 'arr' must be private and have accessor methods. [VisibilityModifier]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:17: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:5: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:24: Parameter n should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:28: 'n' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:32:30: '*' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:32:31: '*' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:37: First sentence should end with a period. [JavadocStyle]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:47: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:47:11: 'if' is not followed by whitespace. [WhitespaceAround]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:51: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:51:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:55: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:55:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:60:31: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:60:32: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:56:31: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:56:32: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 14 errors.
 Starting audit...
 Audit done.

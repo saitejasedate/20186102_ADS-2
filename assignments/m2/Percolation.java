@@ -1,15 +1,11 @@
 /**
- * import java Scanner class.
- */
-import java.util.Scanner;
-/**
  * Class for percolation.
  */
 class Percolation {
-	/**
-	 * int openSiteCount.
-	 */
-    int openSiteCount;
+    /**
+     * int openSiteCount.
+     */
+    private int openSiteCount;
     /**
      * boolean two dimensional array.
      */
@@ -17,11 +13,11 @@ class Percolation {
     /**
      * Graph graph.
      */
-    Graph graph;
+    private Graph graph;
     /**
      * int n;
      */
-    int n;
+    private int n;
 
     // create n-by-n grid, with all sites blocked
 
@@ -49,11 +45,11 @@ class Percolation {
 
         // Top site.
         if(i == 0) { 
-        	graph.addEdge(n * n, cal(i, j));
+            graph.addEdge(n * n, cal(i, j));
         }
         // Bottom site.
         if(i == n - 1) { 
-        	graph.addEdge(n * n + 1, cal(i, j));
+            graph.addEdge(n * n + 1, cal(i, j));
         }
 
         // bottom site
