@@ -1,0 +1,93 @@
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\Bag.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\EdgeWeightedGraph.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\KruskalMST.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+Audit done.
+Checkstyle ends with 1 errors.
+Starting audit...
+Audit done.
+Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:18: Line is longer than 80 characters (found 106). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:19: Line is longer than 80 characters (found 114). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:24:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:27:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:30:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:35: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:36:9: '}' at column 9 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:37:48: '{' at column 48 should have line break after. [LeftCurly]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:41:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:61:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:61:39: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:68:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:68:40: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:75:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:75:37: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:82:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:82:39: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:89:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:89:38: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:96:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:96:36: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:103:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:103:37: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:110:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:110:38: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:117:32: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:117:37: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:131:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:131:37: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:139:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:139:38: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:147:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:147:35: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:155:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:155:37: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:163:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:163:36: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:171:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:171:34: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:179:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:179:35: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:187:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:187:36: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:195:30: Parameter x should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:195:35: Expected @param tag for 'x'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:204:31: Parameter format should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:204:38: Expected @param tag for 'format'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:204:46: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:204:56: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:31: Parameter locale should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:38: Expected @param tag for 'locale'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:46: Parameter format should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:53: Expected @param tag for 'format'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:61: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:213:71: Expected @param tag for 'args'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:219:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:219:29: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:223:24: '17' is a magic number. [MagicNumber]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:225:36: '/' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:225:37: '/' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m7\1. MST\StdOut.java:225:37: '7.0' is a magic number. [MagicNumber]
+Audit done.
+Checkstyle ends with 62 errors.
+Starting audit...
+Audit done.
