@@ -261,11 +261,11 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:18:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:18:33: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:25: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:25:61: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:25:62: '-' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:26:60: '-' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:26:61: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:24: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:24:61: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:24:62: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:25:60: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:25:61: '-' is not followed by whitespace. [WhitespaceAround]
 Audit done.
 Checkstyle ends with 10 errors.
 Starting audit...

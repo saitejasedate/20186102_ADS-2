@@ -5,7 +5,7 @@ false
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:60)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -15,7 +15,7 @@ false
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -24,9 +24,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at CC.<init>(CC.java:72)
-	at Percolation.percolates(Percolation.java:79)
-	at Solution.main(Solution.java:28)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -34,9 +33,10 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Unknown Source)
-	at Solution.main(Solution.java:21)
+Exception in thread "main" java.lang.NullPointerException
+	at CC.<init>(CC.java:72)
+	at Percolation.percolates(Percolation.java:79)
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -45,8 +45,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -55,8 +55,8 @@ false
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -65,8 +65,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -75,8 +75,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:48)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:44)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -86,7 +86,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -95,8 +95,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -106,7 +106,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -115,8 +115,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:56)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -125,8 +125,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:56)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -136,7 +136,7 @@ false
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -145,8 +145,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:44)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 15: Failed ##########
@@ -156,7 +156,7 @@ false
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -166,7 +166,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -176,7 +176,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -186,7 +186,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -195,8 +195,8 @@ true
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:60)
-	at Solution.main(Solution.java:25)
+	at Percolation.open(Percolation.java:41)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -206,7 +206,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -216,7 +216,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -226,7 +226,7 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -236,6 +236,6 @@ true
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
 	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:25)
+	at Solution.main(Solution.java:24)
 ----------------------------------------
 
