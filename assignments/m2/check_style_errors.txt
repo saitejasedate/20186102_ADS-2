@@ -83,4 +83,9 @@ Starting audit...
 Audit done.
 Checkstyle ends with 75 errors.
 Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:26:55: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:26:56: '-' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:27:50: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Solution.java:27:51: '-' is not followed by whitespace. [WhitespaceAround]
 Audit done.
+Checkstyle ends with 4 errors.
