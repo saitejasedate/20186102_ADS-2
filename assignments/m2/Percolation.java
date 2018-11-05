@@ -1,7 +1,7 @@
 /**
  * import java Scanner class.
  */
-import java.util.*;
+import java.util.Scanner;
 /**
  * Class for percolation.
  */
@@ -48,26 +48,26 @@ class Percolation {
         arr[i][j] = true;
 
         // Top site.
-        if(i == 0) graph.addEdge(n*n, cal(i,j));
+        if(i == 0) graph.addEdge(n * n, cal(i, j));
 
         // Bottom site.
-        if(i == n-1) graph.addEdge(n*n+1, cal(i,j));
+        if(i == n - 1) graph.addEdge(n * n + 1, cal(i, j));
 
         // bottom site
-        if (i < n-1 && arr[i+1][j] == true)
-            graph.addEdge(cal(i, j), cal(i+1, j));
+        if (i < n - 1 && arr[i+1][j] == true)
+            graph.addEdge(cal(i, j), cal(i + 1, j));
 
         // top site
-        if (i > 0   && arr[i-1][j] == true)
-            graph.addEdge(cal(i, j), cal(i-1, j));
+        if (i > 0   && arr[i - 1][j] == true)
+            graph.addEdge(cal(i, j), cal(i - 1, j));
 
         // right site
-        if (j < n-1 && arr[i][j+1] == true)
-            graph.addEdge(cal(i, j), cal(i, j+1));
+        if (j < n - 1 && arr[i][j + 1] == true)
+            graph.addEdge(cal(i, j), cal(i, j + 1));
 
         // left site
-        if (j > 0   && arr[i][j-1] == true)
-            graph.addEdge(cal(i, j), cal(i, j-1));
+        if (j > 0   && arr[i][j - 1] == true)
+            graph.addEdge(cal(i, j), cal(i, j - 1));
    }
    /**
     * { function_description }
@@ -78,7 +78,7 @@ class Percolation {
     * @return     { description_of_the_return_value }
     */
    public int cal(int i, int j) {
-        return (n*i)+j;
+        return (n * i) + j;
    }
 
    // does the system Percolates?
@@ -90,7 +90,7 @@ class Percolation {
     */
    public boolean percolates() {
         CC cc = new CC(graph);
-        if (cc.connected(n*n, n*n+1))
+        if (cc.connected(n * n, n * n + 1))
             return true;
         return false;
     }
