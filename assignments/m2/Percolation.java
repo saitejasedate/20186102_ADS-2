@@ -9,12 +9,12 @@ class Percolation {
     /**
      * boolean two dimensional array.
      */
-    boolean[][] arr;
-    /**
+    private boolean[][] arr;
+    /**.
      * Graph graph.
      */
     private Graph graph;
-    /**
+    /**.
      * int n;
      */
     private int n;
@@ -26,15 +26,15 @@ class Percolation {
      *
      * @param      n     { parameter_description }
      */
-    public Percolation(int n) {
-        this.n = n;
+    Percolation(final int n1) {
+        this.n = n1;
         arr = new boolean[n][n];
-        graph = new Graph((n)*(n) + 2);
+        graph = new Graph((n) * (n) + 2);
    }
 
    // open site (row, col) if it is not open already
 
-   /**
+   /**.
     * { function_description }
     *
     * @param      i     { parameter_description }
@@ -44,16 +44,16 @@ class Percolation {
         arr[i][j] = true;
 
         // Top site.
-        if(i == 0) { 
+        if (i == 0) {
             graph.addEdge(n * n, cal(i, j));
         }
         // Bottom site.
-        if(i == n - 1) { 
+        if (i == n - 1) {
             graph.addEdge(n * n + 1, cal(i, j));
         }
 
         // bottom site
-        if (i < n - 1 && arr[i+1][j]) {
+        if (i < n - 1 && arr[i + 1][j]) {
             graph.addEdge(cal(i, j), cal(i + 1, j));
         }
 

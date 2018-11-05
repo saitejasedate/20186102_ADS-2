@@ -5,21 +5,9 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:12:17: Variable 'arr' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:17: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:5: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:24: Parameter n should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:28: 'n' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:32:30: '*' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:32:31: '*' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:37: First sentence should end with a period. [JavadocStyle]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:47: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:47:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:51: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:51:11: 'if' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:56:31: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:56:32: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:27:8: Unused @param tag for 'n'. [JavadocMethod]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:27: Expected @param tag for 'n1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 14 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
