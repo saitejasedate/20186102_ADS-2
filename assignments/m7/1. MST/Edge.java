@@ -71,3 +71,4 @@ class Edge implements Comparable<Edge> {
         return this.weight().compareTo(that.weight());
     }
 }
+
