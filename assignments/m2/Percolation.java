@@ -24,7 +24,7 @@ class Percolation {
     /**
      * Constructs the object.
      *
-     * @param      n     { parameter_description }
+     * @param      n1     { parameter_description }
      */
     Percolation(final int n1) {
         this.n = n1;

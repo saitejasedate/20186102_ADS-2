@@ -5,9 +5,6 @@ Audit done.
 Starting audit...
 Audit done.
 Starting audit...
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:27:8: Unused @param tag for 'n'. [JavadocMethod]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m2\Percolation.java:29:27: Expected @param tag for 'n1'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
