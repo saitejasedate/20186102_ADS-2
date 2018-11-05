@@ -48,7 +48,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
       * Is the BAG empty?
-      *
+      * Time complexity is O(1).
       * @return     True if empty, False otherwise.
       */
     public boolean isEmpty() {
@@ -57,7 +57,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
       * Return the number of items in the bag.
-      *
+      * Time complexity is O(1).
       * @return     { description_of_the_return_value }.
       */
     public int size() {
@@ -66,7 +66,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
       * Add the item to the bag.
-      *
+      * Time complexity is 0(1).
       * @param      item  The item.
       */
     public void add(final Item item) {
@@ -79,7 +79,7 @@ public class Bag<Item> implements Iterable<Item> {
 
     /**
      * { function_description }.
-     *
+     * Time complexity is O(N).
      * @return     { description_of_the_return_value }.
      */
     public Iterator<Item> iterator() {

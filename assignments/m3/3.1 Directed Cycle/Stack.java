@@ -39,7 +39,9 @@ public class Stack<Item> {
 
     /**
      * Returns true if this stack is empty.
-     *
+     * By the analysis the the time constant of the following method
+     * is O(1).
+     * The statment of the method executes only once when the method calls.
      * @return true if this stack is empty; false otherwise
      */
     public boolean isEmpty() {
@@ -48,7 +50,9 @@ public class Stack<Item> {
 
     /**
      * Returns the number of items in this stack.
-     *
+     * By the analysis the the time constant of the following method
+     * is O(1).
+     *The statment of the method executes only once when the method calls.
      * @return the number of items in this stack
      */
     public int size() {
@@ -57,7 +61,9 @@ public class Stack<Item> {
 
     /**
      * Adds the item to this stack.
-     *
+     *By the analysis the the time constant of the following method
+     *is O(1).
+     *The statment of the method executes only once when the method calls.
      * @param  item the item to add
      */
     public void push(final Item item) {
@@ -70,9 +76,10 @@ public class Stack<Item> {
 
     /**
      * Removes and returns the item most recently added to this stack.
-     *
+     *By the analysis the the time constant of the following method
+     *is O(1).
+     *The statment of the method executes only once when the method calls.
      * @return the item most recently added
-     *
      */
     public Item pop() {
         Item item = first.item;
@@ -83,9 +90,10 @@ public class Stack<Item> {
 
     /**
      * Returns (but does not remove) the item most recently added to this stack.
-     *
+     *By the analysis the the time constant of the following method
+     *is O(1).
+     *The statment of the method executes only once when the method calls.
      * @return the item most recently added to this stack
-     *
      */
     public Item peek() {
         return first.item;

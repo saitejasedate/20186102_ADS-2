@@ -65,7 +65,7 @@ public class DirectedCycle {
     }
     /**
      * Determines if it has cycle.
-     *
+     * Time complexity is O(1).
      * @return     True if has cycle, False otherwise.
      */
     public boolean hasCycle() {
@@ -74,7 +74,7 @@ public class DirectedCycle {
 
     /**
      * Returns a string representation of the object.
-     *
+     * Time complexity is O(1).
      * @return     String representation of the object.
      */
     public String toString() {
