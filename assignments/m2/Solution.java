@@ -23,8 +23,8 @@ public final class Solution {
         Percolation percolobj = new Percolation(size);
         while (scan.hasNext()) {
             String[] tokens = scan.nextLine().split(" ");
-            percolobj.open(Integer.parseInt(tokens[0])-1,
-                      Integer.parseInt(tokens[1])-1);
+            percolobj.open(Integer.parseInt(tokens[0]) - 1,
+                      Integer.parseInt(tokens[1]) - 1);
         }
         System.out.println(percolobj.percolates());
     }
