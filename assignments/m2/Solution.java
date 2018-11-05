@@ -17,7 +17,7 @@ class Solution {
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int size = sc.nextInt();
+		int size = Integer.parseInt(sc.nextLine());
 		sc.nextLine();
 		Percolation obj = new Percolation(size);
 		while (sc.hasNext()) {
