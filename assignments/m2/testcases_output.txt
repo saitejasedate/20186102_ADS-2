@@ -3,9 +3,9 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:60)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 25
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -13,9 +13,9 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -23,20 +23,17 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at CC.<init>(CC.java:72)
-	at Percolation.percolates(Percolation.java:79)
-	at Solution.main(Solution.java:27)
+false
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -44,9 +41,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -54,9 +51,9 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 6: Failed ##########
@@ -64,9 +61,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 3
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 7: Failed ##########
@@ -74,9 +71,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 4
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 8: Failed ##########
@@ -84,9 +81,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 5
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 9: Failed ##########
@@ -94,9 +91,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 6
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 10: Failed ##########
@@ -104,9 +101,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 7
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 11: Failed ##########
@@ -114,9 +111,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 12: Failed ##########
@@ -124,9 +121,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 13: Failed ##########
@@ -134,9 +131,9 @@ Expected Output:
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 14: Failed ##########
@@ -144,19 +141,17 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:44)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 10
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
-########## Testcase 15: Failed ##########
+########## Testcase 15: Passed ##########
 Expected Output: 
 false
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+false
 ----------------------------------------
 
 ########## Testcase 16: Failed ##########
@@ -164,9 +159,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 20
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 17: Failed ##########
@@ -174,9 +169,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 50
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 18: Failed ##########
@@ -184,9 +179,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 19: Failed ##########
@@ -194,9 +189,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 47
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 20: Failed ##########
@@ -204,9 +199,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 60
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 21: Failed ##########
@@ -214,9 +209,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 13
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 22: Failed ##########
@@ -224,9 +219,9 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:52)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 101
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
 ########## Testcase 23: Failed ##########
@@ -234,8 +229,8 @@ Expected Output:
 true
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Percolation.open(Percolation.java:41)
-	at Solution.main(Solution.java:24)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 98
+	at Percolation.open(Percolation.java:23)
+	at Solution.main(Solution.java:26)
 ----------------------------------------
 
