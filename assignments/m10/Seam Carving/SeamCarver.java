@@ -10,6 +10,9 @@ public class SeamCarver {
 	}
 	// current picture
 	public Picture picture() {
+		if (picture == null) {
+			System.out.println("picture is null");
+		}
 		return picture;
 	}
 	// width of current picture
