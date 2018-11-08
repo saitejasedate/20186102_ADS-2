@@ -11,7 +11,7 @@ public class SeamCarver {
 	// current picture
 	public Picture picture() {
 		if (picture == null) {
-			System.out.println("picture is null");
+			throw new IllegalArgumentException("picture is null");
 		}
 		return picture;
 	}
