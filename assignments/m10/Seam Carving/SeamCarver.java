@@ -6,13 +6,12 @@ public class SeamCarver {
 	double width;
 	public SeamCarver(Picture picture1) {
 		this.picture = picture1;
-
-	}
-	// current picture
-	public Picture picture() {
 		if (this.picture == null) {
 			throw new IllegalArgumentException("picture is null");
 		}
+	}
+	// current picture
+	public Picture picture() {
 		return picture;
 	}
 	// width of current picture
