@@ -10,7 +10,7 @@ public class SeamCarver {
 	}
 	// current picture
 	public Picture picture() {
-		if (picture == null) {
+		if (this.picture == null) {
 			throw new IllegalArgumentException("picture is null");
 		}
 		return picture;
