@@ -241,6 +241,9 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:30:66: '||' should be on a new line. [OperatorWrap]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:31:43: ')' is preceded with whitespace. [ParenPad]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:32:32: '1000' is a magic number. [MagicNumber]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:41: Line is longer than 80 characters (found 93). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:41:92: ';' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:45:75: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:47: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:49: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:60:9: Class 'SeamCarver' looks like designed for extension (can be subclassed), but the method 'findHorizontalSeam' does not have javadoc that explains how to do that safely. If class is not designed for extension consider making the class 'SeamCarver' final or making the method 'findHorizontalSeam' static/final/abstract/empty, or adding allowed annotation for the method. [DesignForExtension]
@@ -252,7 +255,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:75:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\SeamCarver.java:75:40: Parameter seam should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 29 errors.
+Checkstyle ends with 32 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\ShowEnergy.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m10\Seam Carving\ShowEnergy.java:5: Line has trailing spaces. [RegexpSingleline]

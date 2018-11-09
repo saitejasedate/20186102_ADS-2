@@ -38,11 +38,11 @@ public class SeamCarver {
 			int redh = bottom.getRed() - top.getRed();
 			int blueh = bottom.getBlue() - top.getBlue();
 			int greenh = bottom.getGreen() - top.getGreen();
-			double horizontal = redh ^ 2 + blueh ^ 2 + greenh ^ 2;
+			double horizontal = redh * redh  + blueh * blueh  + greenh * greenh ;
 			int redv = left.getRed() - right.getRed();
             int bluev = left.getBlue() - right.getBlue();
             int greenv = left.getGreen() - right.getGreen();
-            int vertical = redv ^ 2 + bluev ^ 2 + greenv ^ 2;
+            int vertical = redv * redv  + bluev * bluev  + greenv * greenv ;
             double energies = Math.sqrt(horizontal + vertical);
             return energies; 
 		}
