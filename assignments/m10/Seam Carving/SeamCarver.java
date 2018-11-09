@@ -1,10 +1,10 @@
 import java.awt.Color;
 public class SeamCarver {
 	// create a seam carver object based on the given picture
-	Picture picture;
-	private double[][] array;
+	private Picture picture;
+	/*private double[][] array;
 	double height;
-	double width;
+	double width;*/
 	public SeamCarver(Picture picture1) {
 		if (picture1 == null) {
 			throw new IllegalArgumentException("picture is null");
@@ -48,13 +48,13 @@ public class SeamCarver {
 		}
 	} 
 
-	public void calculateEnergy() {
-		for (int i = 0; i < picture.width(); i++) {
-			for (int j = 0; j < picture.height(); j++) {
-				array[i][j] = energy(i, j);
-			}
-		}
-	}
+	// public void calculateEnergy() {
+	// 	for (int i = 0; i < picture.width(); i++) {
+	// 		for (int j = 0; j < picture.height(); j++) {
+	// 			array[i][j] = energy(i, j);
+	// 		}
+	// 	}
+	// }
 
 	// sequence of indices for horizontal seam
 	public int[] findHorizontalSeam() {
