@@ -1,3 +1,4 @@
+import java.awt.Color;
 public class SeamCarver {
 	// create a seam carver object based on the given picture
 	Picture picture;
@@ -5,10 +6,10 @@ public class SeamCarver {
 	double height;
 	double width;
 	public SeamCarver(Picture picture1) {
-		this.picture = picture1;
-		if (this.picture == null) {
+		if (picture1 == null) {
 			throw new IllegalArgumentException("picture is null");
 		}
+		this.picture = picture1;
 	}
 	// current picture
 	public Picture picture() {
@@ -28,8 +29,31 @@ public class SeamCarver {
 	public double energy(int x, int y) {
 		if (x == 0 || y == 0 || x == picture.height() - 1 ||
 		 y == picture.width() - 1 ) {
+			return 1000;
+		} else {
+			Color left = picture.get(x, y - 1);
+			Color right = picture.get(x, y + 1);
+			Color top = picture.get(x - 1, y);
+			Color bottom = picture.get(x + 1, y);
+			int redh = bottom.getRed() - top.getRed();
+			int blueh = bottom.getBlue() - top.getBlue();
+			int greenh = bottom.getGreen() - top.getGreen();
+			double horizontal = redh ^ 2 + blueh ^ 2 + greenh ^ 2;
+			int redv = left.getRed() - right.getRed();
+            int bluev = left.getBlue() - right.getBlue();
+            int greenv = left.getGreen() - right.getGreen();
+            int vertical = redv ^ 2 + bluev ^ 2 + greenv ^ 2;
+            double energies = Math.sqrt(horizontal + vertical);
+            return energies; 
 		}
-		return 1000;
+	} 
+
+	public void calculateEnergy() {
+		for (int i = 0; i < picture.width(); i++) {
+			for (int j = 0; j < picture.height(); j++) {
+				array[i][j] = energy(i, j);
+			}
+		}
 	}
 
 	// sequence of indices for horizontal seam
