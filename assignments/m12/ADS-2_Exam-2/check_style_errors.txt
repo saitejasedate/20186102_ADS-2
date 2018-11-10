@@ -122,7 +122,11 @@ Starting audit...
 Audit done.
 Checkstyle ends with 30 errors.
 Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:172:30: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:172:59: '+' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\EdgeWeightedGraph.java:172:60: '+' is not followed by whitespace. [WhitespaceAround]
 Audit done.
+Checkstyle ends with 3 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\IndexMinPQ.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\IndexMinPQ.java:14: Line is longer than 80 characters (found 86). [LineLength]
