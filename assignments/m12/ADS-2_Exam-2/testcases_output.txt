@@ -13,7 +13,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -35,7 +35,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -47,7 +47,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "D
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -59,7 +59,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "D
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -71,7 +71,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "V
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -84,6 +84,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "V
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:15)
 ----------------------------------------
 

@@ -6,10 +6,8 @@ public class Solution {
 		// Parallel Edges are allowed...
 		// Take the Graph input here...
 		Scanner sc = new Scanner(System.in);
-		int numOfcities = sc.nextInt();
-		sc.nextLine();
-		int numOfroadLines = sc.nextInt();
-		sc.nextLine();
+		int numOfcities = Integer.parseInt(sc.nextLine());
+		int numOfroadLines = Integer.parseInt(sc.nextLine());
 		// System.out.println("hello");
 		EdgeWeightedGraph edgeweighted = new EdgeWeightedGraph(numOfcities);
 		while(numOfroadLines > 0) {
@@ -18,6 +16,7 @@ public class Solution {
 				Integer.parseInt(line[1]), Integer.parseInt(line[2]));
 			edgeweighted.addEdge(edge);
 		}
+		numOfroadLines --;
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
