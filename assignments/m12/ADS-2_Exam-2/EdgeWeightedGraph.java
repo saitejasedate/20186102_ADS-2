@@ -51,8 +51,8 @@ class EdgeWeightedGraph {
       *The statment of the method executes only once when the method calls.
      * @return the number of vertices in this edge-weighted graph
      */
-    public int vert() {
-        return vert;
+    public String vert() {
+        return vert + "vertices";
     }
 
     /**
@@ -62,8 +62,8 @@ class EdgeWeightedGraph {
       *The statment of the method executes only once when the method calls.
      * @return the number of edges in this edge-weighted graph
      */
-    public int edge() {
-        return edge;
+    public String edge() {
+        return edge + "edges";
     }
 
     // throw an IllegalArgumentException unless {@code 0 <= v < V}
