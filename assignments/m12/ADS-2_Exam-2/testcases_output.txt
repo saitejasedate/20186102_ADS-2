@@ -9,19 +9,13 @@ Expected Output:
 5:
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.lang.String.format(Unknown Source)
-	at Edge.toString(Edge.java:104)
-	at java.base/java.lang.String.valueOf(Unknown Source)
-	at EdgeWeightedGraph.toString(EdgeWeightedGraph.java:176)
-	at java.base/java.lang.String.valueOf(Unknown Source)
-	at java.base/java.io.PrintStream.println(Unknown Source)
-	at Solution.main(Solution.java:23)
+6 6
+0: 0-3 1.00000  0-1 2.00000  
+1: 1-2 4.00000  1-4 5.00000  0-1 2.00000  
+2: 2-4 1.00000  3-2 3.00000  1-2 4.00000  
+3: 3-2 3.00000  0-3 1.00000  
+4: 2-4 1.00000  1-4 5.00000  
+5:
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -39,19 +33,17 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-Exception in thread "main" java.util.IllegalFormatConversionException: d != java.lang.String
-	at java.base/java.util.Formatter$FormatSpecifier.failConversion(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.printInteger(Unknown Source)
-	at java.base/java.util.Formatter$FormatSpecifier.print(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.util.Formatter.format(Unknown Source)
-	at java.base/java.lang.String.format(Unknown Source)
-	at Edge.toString(Edge.java:104)
-	at java.base/java.lang.String.valueOf(Unknown Source)
-	at EdgeWeightedGraph.toString(EdgeWeightedGraph.java:176)
-	at java.base/java.lang.String.valueOf(Unknown Source)
-	at java.base/java.io.PrintStream.println(Unknown Source)
-	at Solution.main(Solution.java:23)
+10 11
+0: 0-7 221.00000  0-4 78.00000  
+1: 1-7 158.00000  1-7 159.00000  1-6 92.00000  
+2: 2-9 237.00000  2-5 179.00000  2-4 55.00000  
+3: 3-7 205.00000  
+4: 4-5 191.00000  2-4 55.00000  0-4 78.00000  
+5: 4-5 191.00000  2-5 179.00000  
+6: 1-6 92.00000  
+7: 7-9 157.00000  3-7 205.00000  1-7 158.00000  1-7 159.00000  0-7 221.00000  
+8: 
+9: 7-9 157.00000  2-9 237.00000
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########

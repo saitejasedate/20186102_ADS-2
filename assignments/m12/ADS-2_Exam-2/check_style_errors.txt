@@ -61,8 +61,10 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:86: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:89: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:94:26: Parameter that should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:104:45: ',' is preceded with whitespace. [NoWhitespaceBefore]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:104:49: ',' is preceded with whitespace. [NoWhitespaceBefore]
 Audit done.
-Checkstyle ends with 28 errors.
+Checkstyle ends with 30 errors.
 Starting audit...
 Audit done.
 Starting audit...
