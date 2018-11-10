@@ -14,6 +14,7 @@ public class Solution {
 		System.out.println("hello");
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
+			System.out.println("hello");
 			int cities = Integer.parseInt(line[0]);
 			int[] adj = new int[line.length];
 			for (int i = 1; i < line.length; i++) {

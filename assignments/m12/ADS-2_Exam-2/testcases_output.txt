@@ -10,11 +10,18 @@ Expected Output:
 
 Your Output: 
 hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
 Exception in thread "main" java.lang.NumberFormatException: For input string: "Graph"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -33,10 +40,11 @@ Expected Output:
 
 Your Output: 
 hello
+hello
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 78 is not between 0 and 9
 	at Digraph.validateVertex(Digraph.java:68)
 	at Digraph.addEdge(Digraph.java:83)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -45,11 +53,18 @@ No Path Found.
 
 Your Output: 
 hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
 Exception in thread "main" java.lang.NumberFormatException: For input string: "DirectedPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -58,10 +73,11 @@ Expected Output:
 
 Your Output: 
 hello
+hello
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 78 is not between 0 and 9
 	at Digraph.validateVertex(Digraph.java:68)
 	at Digraph.addEdge(Digraph.java:83)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -70,11 +86,18 @@ No Path Found.
 
 Your Output: 
 hello
+hello
+hello
+hello
+hello
+hello
+hello
+hello
 Exception in thread "main" java.lang.NumberFormatException: For input string: "ViaPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:17)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -84,9 +107,10 @@ Expected Output:
 
 Your Output: 
 hello
+hello
 Exception in thread "main" java.lang.IllegalArgumentException: vertex 78 is not between 0 and 9
 	at Digraph.validateVertex(Digraph.java:68)
 	at Digraph.addEdge(Digraph.java:83)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 
