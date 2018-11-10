@@ -18,7 +18,7 @@ public class Solution {
 				Integer.parseInt(line[1]), Integer.parseInt(line[2]));
 			edgeweighted.addEdge(edge);
 		}
-		String caseToGo = null;
+		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
 			// System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
