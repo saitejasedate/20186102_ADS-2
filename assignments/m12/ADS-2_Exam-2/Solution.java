@@ -15,9 +15,15 @@ public class Solution {
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
 			// System.out.println("hello");
-			int city1 = Integer.parseInt(line[0]);
+			try {
+				int city1 = Integer.parseInt(line[0]);
+				System.out.println(city1);
+			}
+			 catch (NumberFormatException nfe) {
+			 	nfe.printStackTrace();
+			}
 			int city2 = Integer.parseInt(line[1]);
-			digraph.addEdge(city1, city2);
+			// digraph.addEdge(city1, city2);
 		}
 		String caseToGo = null;
 		switch (caseToGo) {
