@@ -8,11 +8,11 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		int numOfcities = sc.nextInt();
 		sc.nextLine();
-		Digraph digraph = new Digraph(numOfcities);
 		int numOfroadLines = sc.nextInt();
 		sc.nextLine();
 		int count = 0;
 		// System.out.println("hello");
+		Digraph digraph = new Digraph(numOfcities);
 		while(count != numOfcities) {
 			String[] line = sc.nextLine().split(" ");
 			// System.out.println("hello");
