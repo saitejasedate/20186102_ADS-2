@@ -14,8 +14,9 @@ java.lang.NumberFormatException: For input string: "Graph"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -38,8 +39,9 @@ java.lang.NumberFormatException: For input string: "Graph"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -52,8 +54,9 @@ java.lang.NumberFormatException: For input string: "DirectedPaths"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -66,8 +69,9 @@ java.lang.NumberFormatException: For input string: "DirectedPaths"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -80,8 +84,9 @@ java.lang.NumberFormatException: For input string: "ViaPaths"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -95,7 +100,8 @@ java.lang.NumberFormatException: For input string: "ViaPaths"
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Unknown Source)
+	at Solution.main(Solution.java:28)
 ----------------------------------------
 
