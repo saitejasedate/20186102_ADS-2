@@ -13,11 +13,11 @@ public class Solution {
 		Digraph digraph = new Digraph(numOfcities);
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
-			int vertex = Integer.parseInt(line[0]);
+			int cities = Integer.parseInt(line[0]);
 			int[] adj = new int[line.length];
 			for (int i = 1; i < line.length; i++) {
 				adj[i] = Integer.parseInt(line[i]);
-				digraph.addEdge(vertex, adj[i]);
+				digraph.addEdge(cities, adj[i]);
 			}
 		}
 		String caseToGo = null;
