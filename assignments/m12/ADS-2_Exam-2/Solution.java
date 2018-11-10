@@ -17,12 +17,12 @@ public class Solution {
 			// System.out.println("hello");
 			try {
 				int city1 = Integer.parseInt(line[0]);
-				System.out.println(city1);
+				int city2 = Integer.parseInt(line[1]);
+			 	digraph.addEdge(city1, city2);
 			}
 			 catch (NumberFormatException nfe) {
 			 	nfe.printStackTrace();
 			}
-			int city2 = Integer.parseInt(line[1]);
 			// digraph.addEdge(city1, city2);
 		}
 		String caseToGo = null;
