@@ -41,11 +41,12 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:14:22: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:30: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:37: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:38: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:27: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:32: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:39: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:40: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

@@ -20,9 +20,11 @@ public class Solution {
 				digraph.addEdge(cities, adj[i]);
 			}
 		}
+		numOfcities--;
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
+			System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
 			System.out.println(digraph);
 			break;
 
