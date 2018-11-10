@@ -8,18 +8,17 @@ public class Solution {
 		Scanner sc = new Scanner(System.in);
 		int numOfcities = sc.nextInt();
 		sc.nextLine();
+		Digraph digraph = new Digraph(numOfcities);
 		int numOfroadLines = sc.nextInt();
 		sc.nextLine();
-		Digraph digraph = new Digraph(numOfcities);
 		int count = 0;
 		// System.out.println("hello");
 		while(count != numOfcities) {
 			String[] line = sc.nextLine().split(" ");
 			// System.out.println("hello");
 			int city = Integer.parseInt(line[0]);
-			sc.nextLine();
 			int[] adj = new int[line.length];
-			for (int i = 1; i < line.length; i++) {
+			for (int i = 1; i < line.length - 1; i++) {
 				adj[i] = Integer.parseInt(line[i]);
 				digraph.addEdge(city, adj[i]);
 			}
