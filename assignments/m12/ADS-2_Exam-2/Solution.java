@@ -11,17 +11,19 @@ public class Solution {
 		int numOfroadLines = sc.nextInt();
 		sc.nextLine();
 		Digraph digraph = new Digraph(numOfcities);
-		System.out.println("hello");
-		while(sc.hasNextLine()) {
+		int count = 0;
+		// System.out.println("hello");
+		while(count != numOfcities) {
 			String[] line = sc.nextLine().split(" ");
-			System.out.println("hello");
-			int cities = Integer.parseInt(line[0]);
+			// System.out.println("hello");
+			int city = Integer.parseInt(line[0]);
 			int[] adj = new int[line.length];
 			for (int i = 1; i < line.length; i++) {
 				adj[i] = Integer.parseInt(line[i]);
-				digraph.addEdge(cities, adj[i]);
+				digraph.addEdge(city, adj[i]);
 			}
 		}
+		count++;
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
