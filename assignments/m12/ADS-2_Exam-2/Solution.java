@@ -12,7 +12,7 @@ public class Solution {
 		sc.nextLine();
 		// System.out.println("hello");
 		EdgeWeightedGraph edgeweighted = new EdgeWeightedGraph(numOfcities);
-		while(sc.hasNextLine()) {
+		while(numOfroadLines > 0) {
 			String[] line = sc.nextLine().split(" ");
 			Edge edge = new Edge(Integer.parseInt(line[0]), 
 				Integer.parseInt(line[1]), Integer.parseInt(line[2]));
