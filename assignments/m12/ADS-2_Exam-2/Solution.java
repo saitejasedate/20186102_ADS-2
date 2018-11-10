@@ -15,8 +15,8 @@ public class Solution {
 			Edge edge = new Edge(Integer.parseInt(line[0]), 
 				Integer.parseInt(line[1]), Integer.parseInt(line[2]));
 			edgeweighted.addEdge(edge);
+			numOfroadLines --;
 		}
-		numOfroadLines --;
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
