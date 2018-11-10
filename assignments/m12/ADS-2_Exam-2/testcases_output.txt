@@ -9,13 +9,11 @@ Expected Output:
 5:
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "Graph"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Graph"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -33,13 +31,11 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "Graph"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Graph"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -47,13 +43,11 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "DirectedPaths"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "DirectedPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -61,13 +55,11 @@ Expected Output:
 370.0
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "DirectedPaths"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "DirectedPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -75,13 +67,11 @@ Expected Output:
 No Path Found.
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "ViaPaths"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "ViaPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -90,12 +80,10 @@ Expected Output:
 5 2 4 0 7 1
 
 Your Output: 
-java.lang.NumberFormatException: For input string: "ViaPaths"
+Exception in thread "main" java.lang.NumberFormatException: For input string: "ViaPaths"
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:29)
+	at Solution.main(Solution.java:17)
 ----------------------------------------
 

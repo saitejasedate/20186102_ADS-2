@@ -33,6 +33,39 @@ Checkstyle ends with 29 errors.
 Starting audit...
 Audit done.
 Starting audit...
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:12: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:19: Line is longer than 80 characters (found 103). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:25: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:27:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:28:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:29:5: Missing a Javadoc comment. [JavadocVariable]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:38: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:17: Parameter v should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:21: 'v' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:24: Parameter w should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:28: 'w' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:31: Parameter weight should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:42:38: 'weight' hides a field. [HiddenField]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:43: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:43: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:44: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:44: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:45: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:45: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:70: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:77:22: Parameter vertex should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:78: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:79: 'if' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:80: 'else' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:86: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:89: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Edge.java:94:26: Parameter that should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 28 errors.
+Starting audit...
+Audit done.
+Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:1: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:2: Missing a Javadoc comment. [JavadocType]
@@ -40,14 +73,16 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:4:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:4:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:4:33: Parameter args should be final. [FinalParameters]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:14: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:15:22: 'while' is not followed by whitespace. [WhitespaceAround]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:22:25: '}' at column 4 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:31: Line is longer than 80 characters (found 102). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 90). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:43: Line is longer than 80 characters (found 87). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:44: Line is longer than 80 characters (found 110). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:17: Line has trailing spaces. [RegexpSingleline]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:18: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:24: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:29: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 87). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:37: Line is longer than 80 characters (found 110). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 15 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

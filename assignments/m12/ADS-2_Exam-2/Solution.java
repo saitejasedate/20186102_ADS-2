@@ -11,25 +11,18 @@ public class Solution {
 		int numOfroadLines = sc.nextInt();
 		sc.nextLine();
 		// System.out.println("hello");
-		Digraph digraph = new Digraph(numOfcities);
+		EdgeWeightedGraph edgeweighted = new EdgeWeightedGraph(numOfcities);
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
-			// System.out.println("hello");
-			try {
-				int city1 = Integer.parseInt(line[0]);
-				int city2 = Integer.parseInt(line[1]);
-			 	digraph.addEdge(city1, city2);
-			}
-			 catch (NumberFormatException nfe) {
-			 	nfe.printStackTrace();
-			}
-			// digraph.addEdge(city1, city2);
+			Edge edge = new Edge(Integer.parseInt(line[0]), 
+				Integer.parseInt(line[1]), Integer.parseInt(line[2]));
+			edgeweighted.addEdge(edge);
 		}
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
-			System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
-			System.out.println(digraph);
+			// System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
+			System.out.println(edgeweighted);
 			break;
 
 		case "DirectedPaths":
