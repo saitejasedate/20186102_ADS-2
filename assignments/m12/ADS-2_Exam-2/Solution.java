@@ -11,6 +11,7 @@ public class Solution {
 		int numOfroadLines = sc.nextInt();
 		sc.nextLine();
 		Digraph digraph = new Digraph(numOfcities);
+		System.out.println("hello");
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
 			int cities = Integer.parseInt(line[0]);
@@ -20,7 +21,6 @@ public class Solution {
 				digraph.addEdge(cities, adj[i]);
 			}
 		}
-		numOfcities--;
 		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
