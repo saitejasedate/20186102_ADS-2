@@ -1,6 +1,5 @@
 import java.util.*;
 public class Solution {
-
 	public static void main(String[] args) {
 		// Self loops are not allowed...
 		// Parallel Edges are allowed...
@@ -24,10 +23,15 @@ public class Solution {
 			break;
 
 		case "DirectedPaths":
-			// Handle the case of DirectedPaths, where two integers are given.
-			// First is the source and second is the destination.
-			// If the path exists print the distance between them.
-			// Other wise print "No Path Found."
+			// String[] directedPath = sc.nextLine().split(" ");
+			// int source = Integer.parseInt(sc.nextLine());
+			// int destination = Integer.parseInt(sc.nextLine());
+			// DijkstraUndirectedSP dij = new DijkstraUndirectedSP(edgeweighted, source);
+			// if (dij.hasPathTo(destination)) {
+   //              System.out.println(dij.distTo(destination));
+   //          } else {
+   //              System.out.println("No Path Found.");
+   //          }
 			break;
 
 		case "ViaPaths":
