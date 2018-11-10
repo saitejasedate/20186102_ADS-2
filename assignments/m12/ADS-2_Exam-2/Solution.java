@@ -13,7 +13,7 @@ public class Solution {
 		int count = 0;
 		// System.out.println("hello");
 		Digraph digraph = new Digraph(numOfcities);
-		while(count != numOfcities) {
+		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
 			// System.out.println("hello");
 			int city = Integer.parseInt(line[0]);
