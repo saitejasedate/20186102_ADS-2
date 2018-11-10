@@ -13,7 +13,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "G
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -31,11 +31,8 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-Exception in thread "main" java.lang.NumberFormatException: For input string: "Graph"
-	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
-	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+Exception in thread "main" java.lang.NullPointerException
+	at Solution.main(Solution.java:27)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -47,7 +44,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "D
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -59,7 +56,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "D
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -71,7 +68,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "V
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 5: Failed ##########
@@ -84,6 +81,6 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "V
 	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
 	at java.base/java.lang.Integer.parseInt(Unknown Source)
-	at Solution.main(Solution.java:19)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
