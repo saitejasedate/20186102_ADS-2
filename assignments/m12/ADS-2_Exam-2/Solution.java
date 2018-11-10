@@ -20,7 +20,6 @@ public class Solution {
 		String caseToGo = sc.nextLine();
 		switch (caseToGo) {
 		case "Graph":
-			System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
 			System.out.println(edgeweighted);
 			break;
 
