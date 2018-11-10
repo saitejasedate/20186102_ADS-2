@@ -78,7 +78,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:15: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:16: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:18:39: '--' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:23: Line is longer than 80 characters (found 105). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:23: Line is longer than 80 characters (found 102). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:28: Line is longer than 80 characters (found 90). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:35: Line is longer than 80 characters (found 87). [LineLength]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m12\ADS-2_Exam-2\Solution.java:36: Line is longer than 80 characters (found 110). [LineLength]
