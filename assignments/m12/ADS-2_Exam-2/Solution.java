@@ -25,7 +25,7 @@ public class Solution {
 			}
 			// digraph.addEdge(city1, city2);
 		}
-		String caseToGo = sc.nextLine();
+		String caseToGo = null;
 		switch (caseToGo) {
 		case "Graph":
 			System.out.println(numOfcities + "vertices" + " " + numOfroadLines + "edges");
