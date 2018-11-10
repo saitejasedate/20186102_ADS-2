@@ -31,8 +31,11 @@ Expected Output:
 9: 7-9 157.00000  2-9 237.00000
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:27)
+Exception in thread "main" java.lang.NumberFormatException: For input string: "Graph"
+	at java.base/java.lang.NumberFormatException.forInputString(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at java.base/java.lang.Integer.parseInt(Unknown Source)
+	at Solution.main(Solution.java:18)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########

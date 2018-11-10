@@ -15,13 +15,9 @@ public class Solution {
 		while(sc.hasNextLine()) {
 			String[] line = sc.nextLine().split(" ");
 			// System.out.println("hello");
-			int city = Integer.parseInt(line[0]);
-			sc.nextLine();
-			int[] adj = new int[line.length];
-			for (int i = 1; i < line.length - 1; i++) {
-				adj[i] = Integer.parseInt(line[i]);
-				digraph.addEdge(city, adj[i]);
-			}
+			int city1 = Integer.parseInt(line[0]);
+			int city2 = Integer.parseInt(line[1]);
+			digraph.addEdge(city1, city2);
 		}
 		String caseToGo = null;
 		switch (caseToGo) {
