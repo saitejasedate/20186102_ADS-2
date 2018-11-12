@@ -25,15 +25,20 @@ public class Solution {
     public static void main(String[] args) {
 
         // read in the strings from standard input
+        Scanner sc = new Scanner(System.in);
         Quick3string quick3way = new Quick3string();
-        String[] a = StdIn.readAllStrings();
-        int n = a.length;
-
+        int numOfStrings = sc.nextInt();
+        sc.nextLine();
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < numOfStrings; i++) {
+        	sb.append(sc.nextLine() + "::");
+        }
         // sort the strings
-        quick3way.sort(a);
+        String[] lines = sb.toString().split("::");
+        quick3way.sort(lines);
 
         // print the results
-        for (int i = 0; i < n; i++)
-            StdOut.println(a[i]);
+        for (int i = 0; i < numOfStrings; i++)
+        	System.out.println(lines[i]);
     }
 }
