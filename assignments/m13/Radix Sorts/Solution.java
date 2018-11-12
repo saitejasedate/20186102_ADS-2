@@ -26,7 +26,7 @@ public class Solution {
 
         // read in the strings from standard input
         Scanner sc = new Scanner(System.in);
-        int numOfStrings = sc.nextInt();
+        double numOfStrings = sc.nextDouble();
         sc.nextLine();
         Quick3string quick3way = new Quick3string();
         String[] a = StdIn.readAllStrings();
