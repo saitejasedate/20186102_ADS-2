@@ -6,23 +6,23 @@ import java.util.*;
 /**
  * Class for solution.
  */
-public class Solution {
-	/**
-	 * Constructs the object.
-	 */
-	private Solution() {
-		/**
-		 * Empty Comstructor,
-		 */
-	}
-	/**
+final public class Solution {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+        /**
+         * Empty Comstructor,
+         */
+    }
+    /**
      * Reads in a sequence of fixed-length strings from standard input;
      * 3-way radix quicksorts them;
      * and prints them to output in ascending order.
      *
      * @param args the command-line arguments
      */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
 
         // read in the strings from standard input
         Scanner sc = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class Solution {
         int numOfStrings = Integer.parseInt(sc.nextLine());
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < numOfStrings; i++) {
-        	sb.append(sc.nextLine() + "::");
+            sb.append(sc.nextLine() + "::");
         }
         // sort the strings
         String[] lines = sb.toString().split("::");
@@ -39,7 +39,7 @@ public class Solution {
         // print the results
         String str = "[";
         for (int i = 0; i < numOfStrings; i++) {
-        	str += lines[i] + ", ";
+            str += lines[i] + ", ";
         }
         System.out.println(str.substring(0, str.length() - 2) + "]");
     }
