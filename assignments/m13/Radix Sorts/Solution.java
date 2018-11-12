@@ -38,7 +38,11 @@ public class Solution {
         quick3way.sort(lines);
 
         // print the results
-        for (int i = 0; i < numOfStrings; i++)
-        	System.out.println(lines[i]);
+        String str = "[";
+        for (int i = 0; i < numOfStrings; i++) {
+        	// String str = "[";
+        	str += lines[i] + ", ";
+        }
+        System.out.println(str.substring(0, str.length() - 2) + "]");
     }
 }
