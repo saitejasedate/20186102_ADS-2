@@ -38,12 +38,14 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-
+/**
+ * Class for quick 3 string.
+ */
 public class Quick3string {
     private static final int CUTOFF =  15;   // cutoff to insertion sort
 
     // do not instantiate
-    Quick3string() { } 
+    public Quick3string() { } 
 
     /**  
      * Rearranges the array of strings in ascending order.
