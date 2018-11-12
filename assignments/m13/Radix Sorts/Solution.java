@@ -25,18 +25,15 @@ public class Solution {
     public static void main(String[] args) {
 
         // read in the strings from standard input
-        Scanner sc = new Scanner(System.in);
-        double numOfStrings = sc.nextDouble();
-        sc.nextLine();
         Quick3string quick3way = new Quick3string();
         String[] a = StdIn.readAllStrings();
-        // int n = a.length;
+        int n = a.length;
 
         // sort the strings
         quick3way.sort(a);
 
         // print the results
-        for (int i = 0; i < numOfStrings; i++)
+        for (int i = 0; i < n; i++)
             StdOut.println(a[i]);
     }
 }

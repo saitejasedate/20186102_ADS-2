@@ -67,7 +67,7 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:9: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:25:29: Parameter args should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:39: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:36: 'for' construct must use '{}'s. [NeedBraces]
 Audit done.
 Checkstyle ends with 6 errors.
 Starting audit...
