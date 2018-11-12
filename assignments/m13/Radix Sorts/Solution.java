@@ -2,11 +2,11 @@
  * @author : saitejasedate.
  * import java Scanner class.
  */
-import java.util.*;
+import java.util.Scanner;
 /**
  * Class for solution.
  */
-final public class Solution {
+final class Solution {
     /**
      * Constructs the object.
      */

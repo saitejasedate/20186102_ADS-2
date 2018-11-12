@@ -62,7 +62,4 @@ Starting audit...
 Audit done.
 Checkstyle ends with 60 errors.
 Starting audit...
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:5: Using the '.*' form of import should be avoided - java.util.*. [AvoidStarImport]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m13\Radix Sorts\Solution.java:9:7: 'public' modifier out of order with the JLS suggestions. [ModifierOrder]
 Audit done.
-Checkstyle ends with 2 errors.
