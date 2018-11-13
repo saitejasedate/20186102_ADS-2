@@ -30,7 +30,7 @@ final class Solution {
         for (int i = 0; i < words.length; i++) {
             String[] tokens = new String[words[i].length()];
             for (int j = 0; j < words[i].length(); j++) {
-                tokens[j] = words[i].substring(j, 
+                tokens[j] = words[i].substring(j,
                     words[i].length());
                 tst.put(tokens[j], 0);
             }
