@@ -146,10 +146,8 @@ Starting audit...
 Audit done.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m14\Assignment-1\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m14\Assignment-1\Solution.java:3: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m14\Assignment-1\Solution.java:10:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m14\Assignment-1\Solution.java:33: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m14\Assignment-1\Solution.java:33: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 4 errors.
+Checkstyle ends with 2 errors.
 Starting audit...
 Audit done.
