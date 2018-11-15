@@ -19,9 +19,9 @@ public class BoggleSolver {
 			else if(dictionary[i].length() >= 8) {
 				tst.put(dictionary[i], 11);
 			}
-			else {
-				tst.put(dictionary[i], 0);
-			}
+			// else {
+			// 	tst.put(dictionary[i], 0);
+			// }
 		}
 	}
 
