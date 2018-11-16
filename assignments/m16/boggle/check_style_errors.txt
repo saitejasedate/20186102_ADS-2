@@ -783,9 +783,10 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:5: Class Solution should be declared as final. [FinalClass]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:7:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:28: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:44: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:30: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\Solution.java:47: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 6 errors.
+Checkstyle ends with 7 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\StdIn.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\StdIn.java:27: Line is longer than 80 characters (found 84). [LineLength]

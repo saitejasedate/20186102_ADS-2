@@ -27,9 +27,9 @@ public class BoggleSolver {
 
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
-		if (board == null) {
-		 	throw new IllegalArgumentException("board is null");
-		}
+		// if (board == null) {
+		//  	throw new IllegalArgumentException("board is null");
+		// }
 		return new Bag<String>();
 	}
 
