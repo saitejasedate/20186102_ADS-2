@@ -1,5 +1,6 @@
 public class BoggleSolver {
 	TrieST<Integer> trie = new TrieST<Integer>();
+	boolean[][] visited;
 	// Initializes the data structure using the given array of strings as the dictionary.
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
 	public BoggleSolver(String[] dictionary) {
@@ -25,14 +26,55 @@ public class BoggleSolver {
 		}
 	}
 
-	// Returns the set of all valid words in the given Boggle board, as an Iterable.
-	public Iterable<String> getAllValidWords(BoggleBoard board) {
-		// if (board == null) {
-		//  	throw new IllegalArgumentException("board is null");
-		// }
-		return new Bag<String>();
+	private  void findWords(BoggleBoard board, int i, int j,
+	                        Queue queue, String sb) {
+		if (isValid(sb)) {
+			queue.enqueue(sb);
+		}
+		int rows = board.rows();
+		int cols = board.cols();
+		visited[i][j] = true;
+		for (int row = i - 1; row <= i + 1 && row < rows; row++) {
+			for (int col = j - 1; col <= j + 1 && col < cols; col++ ) {
+				if (row >= 0 && col >= 0 && !visited[row][col]) {
+					String sb1 = appendChar(sb, board.getLetter(row, col));
+					findWords(board, row, col, queue, sb1);
+				}
+
+			}
+		}
+		visited[i][j] = false;
 	}
 
+	public String appendChar(String s, char c) {
+		if (c == 'Q') {
+			return s+"QU";
+		}
+		return s+c;
+	}
+
+	private boolean isValid(String key) {
+		if (key.length() <= 2) {
+			return false;
+		}
+		return trie.contains(key);
+	}
+
+	// Returns the set of all valid words in the given Boggle board, as an Iterable.
+	public Iterable<String> getAllValidWords(BoggleBoard board) {
+		if (board == null) {
+		 	System.out.println("board is null");
+		}
+		Queue<String> queue = new Queue<>();
+		visited = new boolean[board.rows()][board.cols()];
+		for (int row = 0; row < board.rows() ; row++ ) {
+			for (int col = 0; col < board.cols() ; col++ ) {
+				String s = appendChar("", board.getLetter(row, col));
+				findWords(board, row, col, queue, s);
+			}
+		}
+		return queue;
+	}
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
 	public int scoreOf(String word) {

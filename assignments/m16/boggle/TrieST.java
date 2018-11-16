@@ -46,7 +46,7 @@
  *  <i>Algorithms, 4th Edition</i> by Robert Sedgewick and Kevin Wayne.
  */
 public class TrieST<Value> {
-    private static final int R = 26;        // extended ASCII
+    private static final int R = 26;
 
 
     private Node root;      // root of trie
@@ -138,6 +138,26 @@ public class TrieST<Value> {
      */
     public boolean isEmpty() {
         return size() == 0;
+    }
+
+    public boolean hasPrefix(String prefix) {
+        Node x = get(root, prefix, 0);
+        if (x == null) {
+            return false;
+        }
+        if (x.val != null) {
+            return true;
+        }
+        int i;
+        for (i = 0; i<R; i++ ) {
+            if (x.next[i] !=null) {
+                break;
+            }
+        }
+        if (x.next[i] == null) {
+            return false;
+        }
+      return true;
     }
 
     /**

@@ -26,9 +26,6 @@ public class Solution {
 			BoggleSolver solver = new BoggleSolver(dictionary);
 			String boardName = StdIn.readLine();
 			BoggleBoard board = new BoggleBoard("/Files/" + boardName);
-			if (board == null) {
-		 		throw new IllegalArgumentException("board is null");
-			}
 			int score = 0;
 			for (String word : solver.getAllValidWords(board)) {
 				score += solver.scoreOf(word);
@@ -38,7 +35,7 @@ public class Solution {
 
 		default:
 			try {
-				dictionaryName = StdIn.readLine();
+				dictionaryName = caseType;
 				in = new In("/Files/" + dictionaryName);
 				dictionary = in.readAllStrings();
 				solver = new BoggleSolver(dictionary);
