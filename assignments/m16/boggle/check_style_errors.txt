@@ -595,9 +595,8 @@ Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\BoggleSolver.java:38:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\BoggleSolver.java:38:28: Parameter word should be final. [FinalParameters]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\BoggleSolver.java:39:41: Expression can be simplified. [SimplifyBooleanExpression]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\BoggleSolver.java:41:17: '}' at column 3 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
 Audit done.
-Checkstyle ends with 36 errors.
+Checkstyle ends with 35 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\In.java:28: Line has trailing spaces. [RegexpSingleline]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m16\boggle\In.java:33: Line has trailing spaces. [RegexpSingleline]
