@@ -120,7 +120,7 @@ public class TrieST<Value> {
             return x;
         }
         char c = key.charAt(d);
-        x.next[c] = put(x.next[c-65], key, val, d+1);
+        x.next[c-65] = put(x.next[c-65], key, val, d+1);
         return x;
     }
 
@@ -253,13 +253,13 @@ public class TrieST<Value> {
         }
         else {
             char c = key.charAt(d);
-            x.next[c] = delete(x.next[c-65], key, d+1);
+            x.next[c-65] = delete(x.next[c-65], key, d+1);
         }
 
         // remove subtrie rooted at x if it is completely empty
         if (x.val != null) return x;
         for (int c = 0; c < R; c++)
-            if (x.next[c] != null)
+            if (x.next[c-65] != null)
                 return x;
         return null;
     }

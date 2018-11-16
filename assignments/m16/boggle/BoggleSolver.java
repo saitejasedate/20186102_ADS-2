@@ -1,5 +1,5 @@
 public class BoggleSolver {
-	TrieST<Integer>trie = new TrieST<Integer>();
+	TrieST<Integer> trie = new TrieST<Integer>();
 	// Initializes the data structure using the given array of strings as the dictionary.
 	// (You can assume each word in the dictionary contains only the uppercase letters A through Z.)
 	public BoggleSolver(String[] dictionary) {
@@ -28,7 +28,7 @@ public class BoggleSolver {
 	// Returns the set of all valid words in the given Boggle board, as an Iterable.
 	public Iterable<String> getAllValidWords(BoggleBoard board) {
 		if (board == null) {
-			throw new IllegalArgumentException("board is null");
+		 	throw new IllegalArgumentException("board is null");
 		}
 		return new Bag<String>();
 	}
@@ -36,7 +36,7 @@ public class BoggleSolver {
 	// Returns the score of the given word if it is in the dictionary, zero otherwise.
 	// (You can assume the word contains only the uppercase letters A through Z.)
 	public int scoreOf(String word) {
-		if (trie.contains(word) == false) {
+		if (trie.get(word) == null) {
 			return 0;
 		}
 		else {
@@ -44,3 +44,4 @@ public class BoggleSolver {
 		}
 	}
 }
+

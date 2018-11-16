@@ -24,7 +24,6 @@ public class Solution {
 			In in = new In("/Files/" + dictionaryName);
 			String[] dictionary = in.readAllStrings();
 			BoggleSolver solver = new BoggleSolver(dictionary);
-
 			String boardName = StdIn.readLine();
 			BoggleBoard board = new BoggleBoard("/Files/" + boardName);
 			int score = 0;
