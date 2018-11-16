@@ -1,5 +1,4 @@
 import java.util.Arrays;
-
 /**
  * Class for solution.
  */
