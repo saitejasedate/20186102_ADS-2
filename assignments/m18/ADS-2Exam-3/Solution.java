@@ -91,7 +91,7 @@ public class Solution {
 		String[] dictionary = toReadFile(file);
 		int length = dictionary.length;
 		for (int i = 0; i < length; i++) {
-			String word = dictionary[i];
+			String word = dictionary[i].toLowerCase();
 			if (st.contains(word)) {
 				st.put(word, st.get(word) + 1);
 			} else {
