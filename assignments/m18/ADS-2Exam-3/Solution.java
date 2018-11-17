@@ -2,6 +2,7 @@
  * @author : saitejasedate.
  * import java util Scanner class.
  */
+import java.util.HashMap;
 import java.util.Scanner;
 /**
  * Class for solution.
@@ -134,6 +135,19 @@ class T9 {
 
 	public Iterable<String> potentialWords(String t9Signature) {
 		// your code goes here
+		HashMap<Integer, String> hmp = new HashMap<Integer, String>();
+		hmp.put(1,null);
+		hmp.put(2,"abc");
+		hmp.put(3,"def");
+		hmp.put(4,"ghi");
+		hmp.put(5,"jkl");
+		hmp.put(6,"mno");
+		hmp.put(7,"pqrs");
+		hmp.put(8,"tuv");
+		hmp.put(9,"wxyz");
+		for (int i = 0; i < t9Signature.length(); i++) {
+			String[] tokens = t9Signature.split("");
+		}
 		return null;
 	}
 
