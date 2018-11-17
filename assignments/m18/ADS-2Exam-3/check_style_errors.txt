@@ -190,38 +190,7 @@ Starting audit...
 Audit done.
 Checkstyle ends with 80 errors.
 Starting audit...
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:3: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:4:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:5:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:6:5: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:9: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:10:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:11:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:48: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:57:25: Parameter item should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:62: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:63: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:74: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:78: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:94: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:97: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:99: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:102: Line has trailing spaces. [RegexpSingleline]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:106: Missing a Javadoc comment. [JavadocType]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:107:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:109:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:109:9: Redundant 'public' modifier. [RedundantModifier]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:109:29: Parameter first should be final. [FinalParameters]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:109:40: 'first' hides a field. [HiddenField]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:113: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:113:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:114: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:114:35: '{' at column 35 should have line break after. [LeftCurly]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:116:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:117: 'if' construct must use '{}'s. [NeedBraces]
-[ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Queue.java:119: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 30 errors.
 Starting audit...
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] D:\MSIT\20186102_ADS2\assignments\m18\ADS-2Exam-3\Solution.java:10: Class Solution should be declared as final. [FinalClass]
