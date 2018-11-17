@@ -1,7 +1,20 @@
+/**
+ * @author : saitejasedate.
+ * import java util Scanner class.
+ */
 import java.util.Scanner;
-
-
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+		/**
+		 * Empty constructor.
+		 */
+	}
 
 	// Don't modify this method.
 	public static void main(String[] args) {
@@ -105,14 +118,18 @@ public class Solution {
 
 class T9 {
 
+	TST tst = new TST();
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
+		for (String str : st.keys()) {
+			tst.put(str, tst.get(str));
+		}
 	}
 
 	// get all the prefixes that match with given prefix.
 	public Iterable<String> getAllWords(String prefix) {
 		// your code goes here
-		return null;
+		return tst.keysWithPrefix(prefix);
 	}
 
 	public Iterable<String> potentialWords(String t9Signature) {
