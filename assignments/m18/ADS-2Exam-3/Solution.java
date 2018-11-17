@@ -122,7 +122,7 @@ class T9 {
 	public T9(BinarySearchST<String, Integer> st) {
 		// your code goes here
 		for (String str : st.keys()) {
-			tst.put(str, tst.get(str));
+			tst.put(str, st.get(str));
 		}
 	}
 
