@@ -10,14 +10,7 @@ Expected Output:
 149
 
 Your Output: 
-null
-null
-null
-null
-null
-null
-null
-null
+BinarySearchST@3f0ee7cb
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
@@ -58,7 +51,7 @@ going
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:26)
+	at Solution.main(Solution.java:34)
 ----------------------------------------
 
 ########## Testcase 2: Failed ##########
@@ -127,7 +120,7 @@ seeking
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:38)
+	at Solution.main(Solution.java:46)
 ----------------------------------------
 
 ########## Testcase 3: Failed ##########
@@ -139,7 +132,7 @@ words
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:57)
+	at Solution.main(Solution.java:65)
 ----------------------------------------
 
 ########## Testcase 4: Failed ##########
@@ -192,6 +185,6 @@ keep
 
 Your Output: 
 Exception in thread "main" java.lang.NullPointerException
-	at Solution.main(Solution.java:70)
+	at Solution.main(Solution.java:78)
 ----------------------------------------
 

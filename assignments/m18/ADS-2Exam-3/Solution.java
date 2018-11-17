@@ -14,8 +14,16 @@ public class Solution {
 			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();
-				System.out.println(hash.get(key));
+				Integer frequency = hash.get(key);
+				if (frequency == null) {
+					frequency = 1;
+				} else {
+					int value = frequency.intValue();
+					frequency = new Integer(value + 1);
+				}
+				hash.put(key, frequency);
 			}
+			System.out.println(hash);
 			break;
 
 		case "getAllPrefixes":
