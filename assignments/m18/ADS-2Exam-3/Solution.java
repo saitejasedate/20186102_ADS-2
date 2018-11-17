@@ -22,8 +22,8 @@ public class Solution {
 					frequency = new Integer(value + 1);
 				}
 				hash.put(key, frequency);
+				System.out.println(frequency);
 			}
-			System.out.println(hash);
 			break;
 
 		case "getAllPrefixes":

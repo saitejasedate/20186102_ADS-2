@@ -10,7 +10,14 @@ Expected Output:
 149
 
 Your Output: 
-BinarySearchST@3f0ee7cb
+1
+1
+1
+1
+1
+1
+1
+1
 ----------------------------------------
 
 ########## Testcase 1: Failed ##########
