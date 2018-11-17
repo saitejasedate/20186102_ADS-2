@@ -7,14 +7,14 @@ public class Solution {
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in);
 		String cases = scan.nextLine();
-
+		Integer frequency = 0;
 		switch (cases) {
 		case "loadDictionary":
 			// input000.txt and output000.txt
 			BinarySearchST<String, Integer> hash = loadDictionary("/Files/t9.csv");
 			while (scan.hasNextLine()) {
 				String key = scan.nextLine();
-				Integer frequency = hash.get(key);
+				frequency = hash.get(key);
 				if (frequency == null) {
 					frequency = 1;
 				} else {
@@ -22,8 +22,8 @@ public class Solution {
 					frequency = new Integer(value + 1);
 				}
 				hash.put(key, frequency);
-				System.out.println(frequency);
 			}
+			System.out.println(frequency);
 			break;
 
 		case "getAllPrefixes":
