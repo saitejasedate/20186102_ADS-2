@@ -406,7 +406,8 @@ public class BinarySearchST<Key extends Comparable<Key>, Value> {
 		for (int i = 0; i < size(); i++)
 			if (i != rank(select(i))) return false;
 		for (int i = 0; i < size(); i++)
-			if (keys[i].compareTo(select(rank(keys[i]))) != 0) return false;
+			if (keys[i].compareTo(select
+				(rank(keys[i]))) != 0) return false;
 		return true;
 	}
 }
