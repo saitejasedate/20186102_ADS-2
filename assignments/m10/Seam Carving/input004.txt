@@ -1,0 +1,2 @@
+findVerticalSeam
+6x5.png
