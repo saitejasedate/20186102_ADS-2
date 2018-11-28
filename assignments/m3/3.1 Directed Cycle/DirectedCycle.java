@@ -35,7 +35,7 @@ public class DirectedCycle {
         }
     }
     /**
-     * Time complexity is adj[V].
+     * Time complexity is O(V+E).
      *
      * @param      graph     { parameter_description }
      * @param      v     { parameter_description }
