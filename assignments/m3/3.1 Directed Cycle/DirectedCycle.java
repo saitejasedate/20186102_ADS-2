@@ -22,6 +22,7 @@ public class DirectedCycle {
     /**
      * Determines whether the digraph {@code G} has a directed cycle and, if so
      * finds such a cycle.
+     * Time complexity is O(E+V).
      * @param graph the digraph
      */
     public DirectedCycle(final Digraph graph) {
