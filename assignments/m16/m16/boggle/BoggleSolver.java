@@ -22,7 +22,7 @@ public class BoggleSolver {
     private ArrayList<String> list;
     /**.
     @param dictionary the string
-    Complexity is O(l) l is length of dictionary
+    Time Complexity is O(l) l is length of dictionary
     */
     public BoggleSolver(String[] dictionary) {
         dict = new Trie<>();
@@ -33,7 +33,7 @@ public class BoggleSolver {
     /**.
     @return the return for final list
     @param board the bogglebpard object
-    Compelxity O(r*c) r:no: of rows, c: no: of cols
+    Time Compelxity O(r*c) r:no: of rows, c: no: of cols
     */
     public Iterable<String> getAllValidWords(BoggleBoard board) {
         this.board = board;
@@ -53,7 +53,7 @@ public class BoggleSolver {
     @param i the row number
     @param j the column number
     @param count the number of chars in the string
-    Complexity O(1) : functional called for every cell once,
+    Time Complexity O(1) : functional called for every cell once,
     steps are executed for that cell, no loops.
     */
     private void verifyword(boolean[][] array, String prefix,
@@ -103,7 +103,7 @@ public class BoggleSolver {
     }
     /**.
     @param word the wrod for scoring
-    Complexity O(1) : score the word appropriately and return
+    Time Complexity O(1) : score the word appropriately and return
     @return the return for word score
     */
     private int getScore(String word) {
@@ -123,7 +123,7 @@ public class BoggleSolver {
     /**.
     @param word the word for scoring
     @return the return for final score
-    Complexity O(1) : finds the score and returns
+    Time Complexity O(1) : finds the score and returns
     */
     public int scoreOf(String word) {
         if (dict.contains(word))
