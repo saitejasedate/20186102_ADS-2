@@ -1,6 +1,7 @@
 /**
  * The reason to choose 3-way string quicksort when compared to
- * LSD, MSD is 
+ * LSD, MSD is beacuse the time complexity of 3-way string quick sort
+ * is less when compared to other sorting algorithms.
  */
 /**
  * @author : saitejasedate.
