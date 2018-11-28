@@ -44,7 +44,7 @@ public class DirectedCycle {
     }
     /**
      * { function_description }.
-     *
+     * Time complexity is O(E+V).
      * @param      graph     { parameter_description }
      * @param      v     { parameter_description }
      */
