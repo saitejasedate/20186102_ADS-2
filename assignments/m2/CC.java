@@ -21,7 +21,6 @@ public class CC {
 
     /**
      * Computes the connected components of the undirected graph {@code g}.
-     *
      * @param      g     the undirected graph
      */
     public CC(final Graph g) {
@@ -38,8 +37,8 @@ public class CC {
     }
 
     /**
-     * { function_description }.
-     *
+     * Depth First Search for a graph.
+     * Time complexity is O(V + E).
      * @param      g     { parameter_description }.
      * @param      v     { parameter_description }.
      */
@@ -57,7 +56,7 @@ public class CC {
     /**
      * Returns the component id of the connected component containing vertex
      * {@code v}.
-     *
+     * Time complexity is O(1).
      * @param  v the vertex
      * @return the component id of the connected component containing
      * vertex {@code v}
@@ -72,7 +71,7 @@ public class CC {
      * Returns the number of vertices in the connected component containing
      * vertex
      * {@code v}.
-     *
+     * Time complexity is O(1).
      * @param  v the vertex
      * @return the number of vertices in the connected component containing
      * vertex {@code v}
@@ -85,7 +84,7 @@ public class CC {
 
     /**
      * Returns the number of connected components in the graph {@code g}.
-     *
+     * Time complexity is O(1).
      * @return the number of connected components in the graph {@code g}
      */
     public int count() {
@@ -95,7 +94,7 @@ public class CC {
     /**
      * Returns true if vertices {@code v} and {@code w} are in the same
      * connected component.
-     *
+     * Time complexity is O(1).
      * @param  v one vertex
      * @param  w the other vertex
      * @return {@code true} if vertices {@code v} and {@code w} are in the same
@@ -112,7 +111,7 @@ public class CC {
     /**
      * Returns true if vertices {@code v} and {@code w} are in the same
      * connected component.
-     *
+     * Time complexity is O(1).
      * @param  v one vertex
      * @param  w the other vertex
      * @return {@code true} if vertices {@code v} and {@code w} are in the same
@@ -130,7 +129,7 @@ public class CC {
 
     /**
      * { function_description }.
-     *
+     * Time complexity is O(1).
      * @param      v     { parameter_description }.
      */
     private void validateVertex(final int v) {
