@@ -126,36 +126,9 @@ Starting audit...
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\DirectedCycle.java:111:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\DirectedCycle.java:117: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\DirectedCycle.java:121: Line is longer than 80 characters (found 90). [LineLength]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\DirectedCycle.java:124: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 27 errors.
-Starting audit...
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:1: Missing a Javadoc comment. [JavadocType]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:2:1: File contains tab characters (this is the first instance). [FileTabCharacter]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:2:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:2:13: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:2:13: Variable 'V' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:3:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:3:13: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [MemberName]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:3:13: Variable 'E' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:5:14: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:5:17: Variable 'matrix' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:17: '(' is preceded with whitespace. [MethodParamPad]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:18: Parameter V should be final. [FinalParameters]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:22: 'V' hides a field. [HiddenField]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:22: Name 'V' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:25: Parameter E should be final. [FinalParameters]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:29: 'E' hides a field. [HiddenField]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:6:29: Name 'E' must match pattern '^[a-z][a-zA-Z0-9]*$'. [ParameterName]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:11:9: Missing a Javadoc comment. [JavadocVariable]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:11:13: Variable 'c' must be private and have accessor methods. [VisibilityModifier]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:12:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:12:29: Parameter v should be final. [FinalParameters]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:12:36: Parameter e should be final. [FinalParameters]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Gmatrix.java:19:9: Missing a Javadoc comment. [JavadocMethod]
-Audit done.
-Checkstyle ends with 25 errors.
+Checkstyle ends with 28 errors.
 Starting audit...
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:2: Missing a Javadoc comment. [JavadocType]

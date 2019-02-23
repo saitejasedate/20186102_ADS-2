@@ -11,6 +11,11 @@ class Solution {
 		}
 		// System.out.println(dg);
 		DirectedCycle dc = new DirectedCycle(dg);
-		System.out.println(dc.cycle());
+		// System.out.println(dc.cycle());
+		if (dc.cycle() == null) {
+			System.out.println("No Self Beneficiaries.");
+		} else {
+			System.out.println(dc.cycle());
+		}
 	}
 }

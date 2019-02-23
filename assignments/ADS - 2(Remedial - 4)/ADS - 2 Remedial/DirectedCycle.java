@@ -121,7 +121,7 @@ public class DirectedCycle {
                 System.err.printf("cycle begins with %d and ends with %d\n", first, last);
                 return false;
             }
-        }
+        } 
 
 
         return true;
