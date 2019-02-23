@@ -21,7 +21,7 @@ class Solution {
 		if(c == numOfpersons) {
 			System.out.println(s);
 		} else {
-			System.out.println("No Self Beneficiaries");
+			System.out.println("No Self Beneficiaries.");
 		}
 	}
 }
