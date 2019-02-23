@@ -10,18 +10,7 @@ class Solution {
 			dg.cGraph(Integer.parseInt(str[0]), Integer.parseInt(str[1]));
 		}
 		// System.out.println(dg);
-		int c = 0;
-		String s = "";
-		for (int j = 0; j < numOfpersons; j++) {
-			if (dg.outdegree(j) == 1) {
-				s += j+" ";
-				c++;
-			}
-		}
-		if(c == numOfpersons) {
-			System.out.println(s);
-		} else {
-			System.out.println("No Self Beneficiaries.");
-		}
+		DirectedCycle dc = new DirectedCycle(dg);
+		System.out.println(dc.cycle());
 	}
 }
