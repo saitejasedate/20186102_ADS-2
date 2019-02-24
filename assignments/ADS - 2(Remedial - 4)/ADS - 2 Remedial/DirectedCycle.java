@@ -41,11 +41,13 @@
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
+import java.util.*;
 public class DirectedCycle {
     private boolean[] marked;        // marked[v] = has vertex v been marked?
     private int[] edgeTo;            // edgeTo[v] = previous vertex on path to v
     private boolean[] onStack;       // onStack[v] = is vertex on the stack?
     private Stack<Integer> cycle;    // directed cycle (or null if no such cycle)
+    ArrayList<Stack<Integer>> lists = new ArrayList<Stack<Integer>>();
 
     /**
      * Determines whether the digraph {@code G} has a directed cycle and, if so,
@@ -83,6 +85,8 @@ public class DirectedCycle {
                 }
                 cycle.push(w);
                 cycle.push(v);
+                lists.add(cycle);
+                cycle = null;
                 assert check();
             }
         }

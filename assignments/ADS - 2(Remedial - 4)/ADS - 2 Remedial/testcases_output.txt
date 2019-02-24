@@ -6,20 +6,20 @@ Your Output:
 0, 1, 2, 3
 ----------------------------------------
 
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 No Self Beneficiaries.
 
 Your Output: 
-No Self Beneficiaries.
+
 ----------------------------------------
 
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 No Self Beneficiaries.
 
 Your Output: 
-No Self Beneficiaries.
+
 ----------------------------------------
 
 ########## Testcase 3: Passed ##########
