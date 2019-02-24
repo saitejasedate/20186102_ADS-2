@@ -110,11 +110,12 @@ Starting audit...
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:10: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29:71: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29:87: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:20:40: Expression can be simplified. [SimplifyBooleanExpression]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:28: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:28:63: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:28:79: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 11 errors.
+Checkstyle ends with 12 errors.
 Starting audit...
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Stack.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Stack.java:13: Line has trailing spaces. [RegexpSingleline]

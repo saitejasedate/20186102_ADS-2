@@ -1,9 +1,9 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 0, 1, 2, 3
 
 Your Output: 
-No Self Beneficiaries.
+0, 1, 2, 3
 ----------------------------------------
 
 ########## Testcase 1: Passed ##########
@@ -22,27 +22,27 @@ Your Output:
 No Self Beneficiaries.
 ----------------------------------------
 
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 1, 2
 
 Your Output: 
-No Self Beneficiaries.
+1, 2
 ----------------------------------------
 
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 1, 2
 
 Your Output: 
-No Self Beneficiaries.
+1, 2
 ----------------------------------------
 
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 0, 1, 2
 
 Your Output: 
-No Self Beneficiaries.
+0, 1, 2
 ----------------------------------------
 
