@@ -17,12 +17,17 @@ class Solution {
 		// } else {
 		// 	System.out.println(dc.cycle());
 		// }
-		for (Stack<Integer> s: dc.lists) {
-            TreeSet<Integer> treeset = new TreeSet<Integer>();
-            for (Integer i : s) {
-                treeset.add(i);
-            }
-            System.out.println(treeset.toString().replace("[","").replace("]",""));
-        }
+
+		if (dc.cycle() == null) {
+			System.out.println("No Self Beneficiaries.");
+		} else {
+			for (Stack<Integer> s: dc.lists) {
+	            TreeSet<Integer> treeset = new TreeSet<Integer>();
+	            for (Integer i : s) {
+	                treeset.add(i);
+	            }
+	            System.out.println(treeset.toString().replace("[","").replace("]",""));
+	        }
+	    }
 	}
 }

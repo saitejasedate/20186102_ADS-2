@@ -110,9 +110,9 @@ Starting audit...
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:3:33: Parameter args should be final. [FinalParameters]
 [ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:10: Line is longer than 80 characters (found 86). [LineLength]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:25: Line is longer than 80 characters (found 83). [LineLength]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:25:63: ',' is not followed by whitespace. [WhitespaceAfter]
-[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:25:79: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29: Line is longer than 80 characters (found 91). [LineLength]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29:71: ',' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] F:\MSIT\20186102_ADS2\assignments\ADS - 2(Remedial - 4)\ADS - 2 Remedial\Solution.java:29:87: ',' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
 Checkstyle ends with 11 errors.
 Starting audit...
