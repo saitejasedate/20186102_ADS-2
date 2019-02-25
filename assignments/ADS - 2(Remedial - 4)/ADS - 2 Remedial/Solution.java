@@ -21,11 +21,15 @@ class Solution {
 			System.out.println("No Self Beneficiaries.");
 		}
 		for (Stack<Integer> s: dc.lists) {
-            TreeSet<Integer> treeset = new TreeSet<Integer>();
-            for (Integer i : s) {
-                treeset.add(i);
+            // TreeSet<Integer> treeset = new TreeSet<Integer>();
+            HashMap<Integer, Stack> hsp = new HashMap<Integer, Stack>();
+            for (int j = 0; j < dc.lists.size(); j++) {
+            	hsp.put(j, s);
             }
-            System.out.println(treeset.toString().replace("[","").replace("]",""));
+            // System.out.println(treeset.toString().replace("[","").replace("]",""));
+            for (int k = 0; k < hsp.size(); k++) {
+            	System.out.println(hsp.get(k));
+            }
         }
 	}
 }
